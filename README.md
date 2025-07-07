@@ -166,6 +166,7 @@ private JPanel createGameScreen() {
 
         return gamePanel;
     }
+    
 private JButton createStyledButton(String text, Color bgColor) {
         JButton button = new JButton(text);
         button.setFont(new Font("Segoe UI", Font.BOLD, 14));
